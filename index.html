@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">FitLife Gym</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Food Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About Us -->
+<section id="about" class="py-5 text-center bg-light">
+    <div class="container">
+        <h2>About Us</h2>
+        <p class="lead">FitLife Gym is committed to helping you achieve your fitness goals with top-tier trainers, nutrition plans, and a motivating environment.</p>
+    </div>
+</section>
+
+<!-- Trainers Section -->
+<section id="trainers" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Trainers</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">Beginner Trainer</h5>
+                        <p class="card-text">Great for newcomers. Focus on form, mobility, and healthy habits.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-warning">
+                    <div class="card-body">
+                        <h5 class="card-title">Intermediate Trainer</h5>
+                        <p class="card-text">Build muscle and burn fat with structured workouts and balanced nutrition.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-danger">
+                    <div class="card-body">
+                        <h5 class="card-title">Advanced Trainer</h5>
+                        <p class="card-text">High-intensity workouts tailored for athletes and fitness pros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Food Menu -->
+<section id="menu" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Food Menu</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Pre-Workout</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Protein Smoothie</li>
+                    <li class="list-group-item">Oatmeal Bowl</li>
+                    <li class="list-group-item">Banana with Peanut Butter</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5>Post-Workout</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Grilled Chicken & Rice</li>
+                    <li class="list-group-item">Salmon & Quinoa</li>
+                    <li class="list-group-item">Protein Bar & Shake</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Reviews -->
+<section id="reviews" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">What Our Clients Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">“I've never felt stronger. Trainers here are top-notch!”</p>
+                    <footer class="blockquote-footer">Emily R.</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">“They helped me drop 20 pounds in 3 months!”</p>
+                    <footer class="blockquote-footer">John D.</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">“Great environment, food plans are amazing.”</p>
+                    <footer class="blockquote-footer">Sophia K.</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                        What are your membership fees?
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show">
+                    <div class="accordion-body">We offer monthly, quarterly, and yearly plans starting from $29/month.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                        Do I need to book classes in advance?
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse">
+                    <div class="accordion-body">Yes, we recommend booking 24 hours in advance using our app or website.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5 text-center">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email: info@fitlifegym.com | Phone: (123) 456-7890</p>
+        <form class="row g-3 justify-content-center">
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="col-md-4">
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-md-8">
+                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 FitLife Gym. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
