@@ -7,18 +7,77 @@
 }
 
 body {
-    background: gray;
+    background: #1c1c1c;
 }
 
-.bg-light {
-    background-color: gray !important;
+#about h2{
+    color: #1c1c1c;
 }
 
-.list-group-item {
-    background-color: #d3d3d3 !important;
-    color: #000;
+h2, h3, h4, h5 {
+    color: #fff;
 }
 
-section {
-    background-color: transparent !important;
+#trainers, #reviews, #faq {
+    background: #1c1c1c;
+}
+
+#trainers h2, #reviews h2, #faq h2 {
+    color: #fff;
+}
+
+#menu {
+    background: #1c1c1c;
+}
+
+#menu h2, #menu h3 {
+    color: #fff;
+}
+
+
+.card {
+    background: #2c2c2c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card-img-top {
+ height: 200px;
+ object-fit: cover;
+ padding:10px;
+ border-radius: 10px;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card-body {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.card-footer{
+    border-top: none;
+    background: transparent;
+    color: #999;
+    font-size: 0.9rem;
 }
