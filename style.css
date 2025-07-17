@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: gray;
+}
+
+.bg-light {
+    background-color: gray !important;
+}
+
+.list-group-item {
+    background-color: #d3d3d3 !important;
+    color: #000;
+}
+
+section {
+    background-color: transparent !important;
+}
